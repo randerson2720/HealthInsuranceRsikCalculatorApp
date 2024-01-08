@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health Insurance Risk Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label for="heightSelect">Select Height:</label>
+    <select id="heightSelect"></select>
+
+    <label for="pressureSelect">Select Blood Pressure:</label>
+    <select id="pressureSelect"></select>
+
+    <label for="ageInput">Age:</label>
+    <input type="number" id="ageInput" placeholder="Enter your age...">
+
+    <label for="weightInput">Weight (lbs):</label>
+    <input type="number" id="weightInput" placeholder="Enter your weight...">
+
+    <button id="submitBtn">Submit</button>
+
+
+    <p id="tooclosetobutton">Family History of Diseases:</p>
+
+    <input type="checkbox" id="alzheimersCheckbox">
+    <label for="alzheimersCheckbox">Alzheimer's</label>
+
+    <input type="checkbox" id="cancerCheckbox">
+    <label for="cancerCheckbox">Cancer</label>
+
+    <input type="checkbox" id="diabetesCheckbox">
+    <label for="diabetesCheckbox">Diabetes</label>
+    <div id="results"></div>
+    
+    <script src="/js/main.js"></script>
+</body>
+</html>
